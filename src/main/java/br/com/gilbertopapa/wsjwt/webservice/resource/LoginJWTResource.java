@@ -4,6 +4,7 @@ package br.com.gilbertopapa.wsjwt.webservice.resource;
 import br.com.gilbertopapa.wsjwt.domian.Usuario;
 import br.com.gilbertopapa.wsjwt.exception.UnauthenticatedException;
 import br.com.gilbertopapa.wsjwt.service.UsuarioService;
+import br.com.gilbertopapa.wsjwt.utils.TokenJWTUtil;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.FormParam;
@@ -21,13 +22,13 @@ public class LoginJWTResource {
 
         Usuario  usuario = validarCredenciais(login,password);
 
-        String token = TokenJWTUtil.gerarToken(usuario.getUsername());
+        String token = TokenJWTUtil.gerarToken(usuario.getUsername(),usuario.recuperarRoles());
 
     return Response.ok().header("Authorization","Bearer" + token).build();
     }
 
 
-    public  Usuario validarCredenciais(){
+    public  Usuario validarCredenciais( String login, String password ){
         UsuarioService usuarioService =  new UsuarioService();
 
         Usuario usuario = usuarioService.recuperarUsuarioComLoginESenha(login,password);
