@@ -1,12 +1,15 @@
 package br.com.gilbertopapa.wsjwt.webservice.jwt;
 
 
+import io.jsonwebtoken.Claims;
+import io.jsonwebtoken.Jws;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 
 import java.security.Key;
 import java.time.LocalDateTime;
 import java.time.ZoneId;
+import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
@@ -39,5 +42,30 @@ public class TokenJWTUtil {
     }
 
 
+    public static boolean tokenValido(String token, Key key) {
+        try {
+            Jwts.parser().setSigningKey(key).parseClaimsJws(token);
+            return true;
+        } catch (Exception e) {
+            return false;
+        }
+
+    }
+
+    public static String recuperarNome (String token, Key key) {
+        Jws<Claims> claimsJws =
+                Jwts.parser().setSigningKey(key).parseClaimsJws(token);
+        return claimsJws.getBody().getSubject();
+    }
+
+
+    public static List<String> recuperarRoles(String jwsToken, Key key) {
+        if (tokenValido(jwsToken, key)) {
+            Jws<Claims> claimsJws =
+                    Jwts.parser().setSigningKey(key).parseClaimsJws(jwsToken);
+            return claimsJws.getBody().get("roles", List.class);
+        }
+        return new ArrayList<String>();
+    }
 
 }

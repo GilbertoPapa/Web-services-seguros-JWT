@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b7dc774-8f6e-4de5-9156-6a536e48c5ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/UserDetails.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/filter/JWTAuthenticationFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/JWTSecurityContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/exception/UnauthenticatedException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/exception/UnauthenticatedException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/KeyGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/KeyGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/TokenJWTUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/TokenJWTUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/mapper/UnauthenticatedExceptionMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/mapper/UnauthenticatedExceptionMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/resource/LoginJWTResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/resource/LoginJWTResource.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/UserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/UserDetails.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/TokenJWTUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/TokenJWTUtil.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -62,14 +55,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/filter/JWTAuthenticationFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
-              <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state>
+              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
             </state>
           </provider>
         </entry>
@@ -86,8 +76,15 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/UserDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
+            <state relative-caret-position="425">
+              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#299#300#0" expanded="true" />
+                <element signature="e#326#327#0" expanded="true" />
+                <element signature="e#387#388#0" expanded="true" />
+                <element signature="e#415#416#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -104,11 +101,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/TokenJWTUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="221">
-              <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+            <state relative-caret-position="544">
+              <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -168,6 +165,8 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/TokenJWTUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/resource/LoginJWTResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/filter/JWTAuthenticationFilter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/UserDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/TokenJWTUtil.java" />
       </list>
     </option>
   </component>
@@ -690,30 +689,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/mapper/UnauthenticatedExceptionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/resource/LoginJWTResource.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
           <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/TokenJWTUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -741,13 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/UserDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="24" selection-start-line="2" selection-start-column="24" selection-end-line="2" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/JWTSecurityContext.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -755,10 +727,41 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/UserDetails.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/filter/JWTAuthenticationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+        <state>
+          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/mapper/UnauthenticatedExceptionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="1" lean-forward="true" selection-start-line="25" selection-start-column="1" selection-end-line="25" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/TokenJWTUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
