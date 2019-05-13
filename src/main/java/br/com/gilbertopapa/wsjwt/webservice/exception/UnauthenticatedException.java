@@ -1,4 +1,4 @@
-package br.com.gilbertopapa.wsjwt.exception;
+package br.com.gilbertopapa.wsjwt.webservice.exception;
 
 public class UnauthenticatedException  extends  RuntimeException {
 

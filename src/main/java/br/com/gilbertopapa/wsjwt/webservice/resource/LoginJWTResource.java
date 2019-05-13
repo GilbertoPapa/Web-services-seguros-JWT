@@ -2,9 +2,9 @@ package br.com.gilbertopapa.wsjwt.webservice.resource;
 
 
 import br.com.gilbertopapa.wsjwt.domian.Usuario;
-import br.com.gilbertopapa.wsjwt.exception.UnauthenticatedException;
+import br.com.gilbertopapa.wsjwt.webservice.exception.UnauthenticatedException;
 import br.com.gilbertopapa.wsjwt.service.UsuarioService;
-import br.com.gilbertopapa.wsjwt.utils.TokenJWTUtil;
+import br.com.gilbertopapa.wsjwt.webservice.jwt.TokenJWTUtil;
 
 import javax.ws.rs.Consumes;
 import javax.ws.rs.FormParam;

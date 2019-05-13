@@ -2,7 +2,7 @@ package br.com.gilbertopapa.wsjwt.webservice.mapper;
 
 
 import br.com.gilbertopapa.wsjwt.domian.ErrorMessage;
-import br.com.gilbertopapa.wsjwt.exception.UnauthenticatedException;
+import br.com.gilbertopapa.wsjwt.webservice.exception.UnauthenticatedException;
 
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;

@@ -1,4 +1,4 @@
-package br.com.gilbertopapa.wsjwt.utils;
+package br.com.gilbertopapa.wsjwt.webservice.jwt;
 
 
 import io.jsonwebtoken.Jwts;
