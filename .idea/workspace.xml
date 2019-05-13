@@ -2,10 +2,30 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8b7dc774-8f6e-4de5-9156-6a536e48c5ee" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/exception/UnauthenticatedException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/mapper/UnauthenticatedExceptionMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/resource/LoginJWTResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/KeyGenerator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/TokenJWTUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/dao/JPAUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/dao/MarcaDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/dao/ProdutoDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/dao/UsuarioDAO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/domian/ErrorMessage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/domian/Marca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/domian/Produto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/domian/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/domian/Usuario.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/exception/EntidadeNaoExisteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/exception/IdInvalidoException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/service/MarcaService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/service/ProdutoService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/service/UsuarioService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/utils/IdUtils.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/webservice/mapper/EntidadeNaoExisteExceptionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/webservice/mapper/IdInvalidoExceptionMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/webservice/resource/MarcaResource.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/br/com/gilbertopapa/wsjwt/webservice/resource/ProdutoResource.class" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -15,16 +35,19 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CodeInsightWorkspaceSettings">
+    <option name="optimizeImportsOnTheFly" value="true" />
+  </component>
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/resource/LoginJWTResource.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+            <state relative-caret-position="424">
+              <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,11 +71,44 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/mapper/UnauthenticatedExceptionMapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="53" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/TokenJWTUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/KeyGenerator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
             </state>
           </provider>
         </entry>
@@ -73,7 +129,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/dao/JPAUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/Main.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/domian/Role.java" />
@@ -82,10 +137,12 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/domian/Produto.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/domian/Marca.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/domian/ErrorMessage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/TokenJWTUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/exception/UnauthenticatedException.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/mapper/UnauthenticatedExceptionMapper.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/resource/LoginJWTResource.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/KeyGenerator.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/TokenJWTUtil.java" />
       </list>
     </option>
   </component>
@@ -273,6 +330,46 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="MavenRunConfiguration" factoryName="Maven">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings">
+          <MavenRunnerSettings>
+            <option name="delegateBuildToMaven" value="false" />
+            <option name="environmentProperties">
+              <map />
+            </option>
+            <option name="jreName" value="1.8.0_191" />
+            <option name="mavenProperties">
+              <map />
+            </option>
+            <option name="passParentEnv" value="true" />
+            <option name="runMavenInBackground" value="true" />
+            <option name="skipTests" value="false" />
+            <option name="vmOptions" value="" />
+          </MavenRunnerSettings>
+        </option>
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list />
+            </option>
+            <option name="pomFileName" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -306,6 +403,7 @@
       <window_info id="UI Designer" order="4" />
       <window_info id="Capture Tool" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" visible="true" weight="0.3295099" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.3295099" />
@@ -313,7 +411,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3295099" />
-      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.15328467" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.15328467" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.3295099" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -414,13 +512,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -567,13 +658,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/TokenJWTUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/exception/UnauthenticatedException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -585,20 +669,47 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/mapper/UnauthenticatedExceptionMapper.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/resource/LoginJWTResource.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="27" lean-forward="true" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+        <state relative-caret-position="424">
+          <caret line="30" column="8" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/resource/LoginJWTResource.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="30" column="8" lean-forward="true" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="374">
+          <caret line="41" column="41" selection-start-line="41" selection-start-column="41" selection-end-line="41" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/KeyGenerator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="40" lean-forward="true" selection-start-column="40" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/mapper/UnauthenticatedExceptionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/TokenJWTUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
