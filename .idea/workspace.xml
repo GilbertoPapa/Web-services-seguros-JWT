@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="8b7dc774-8f6e-4de5-9156-6a536e48c5ee" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/UserDetails.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/UserDetails.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/TokenJWTUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/TokenJWTUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/JWTSecurityContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/JWTSecurityContext.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -58,17 +58,31 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/filter/JWTAuthenticationFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+            <state relative-caret-position="425">
+              <caret line="37" column="69" lean-forward="true" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/JWTSecurityContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
+            <state relative-caret-position="340">
+              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#240#241#0" expanded="true" />
+                <element signature="e#267#268#0" expanded="true" />
+                <element signature="e#329#330#0" expanded="true" />
+                <element signature="e#357#358#0" expanded="true" />
+                <element signature="e#404#405#0" expanded="true" />
+                <element signature="e#432#433#0" expanded="true" />
+                <element signature="e#493#494#0" expanded="true" />
+                <element signature="e#520#521#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -76,10 +90,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/UserDetails.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+            <state relative-caret-position="306">
+              <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#457#458#0" expanded="true" />
                 <element signature="e#299#300#0" expanded="true" />
                 <element signature="e#326#327#0" expanded="true" />
                 <element signature="e#387#388#0" expanded="true" />
@@ -101,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/TokenJWTUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+            <state relative-caret-position="543">
+              <caret line="64" column="46" lean-forward="true" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -165,8 +180,9 @@
         <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/TokenJWTUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/resource/LoginJWTResource.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/filter/JWTAuthenticationFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/UserDetails.java" />
         <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/TokenJWTUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/UserDetails.java" />
+        <option value="$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/JWTSecurityContext.java" />
       </list>
     </option>
   </component>
@@ -720,31 +736,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/JWTSecurityContext.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/TokenJWTUtil.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="31" selection-start-line="2" selection-start-column="31" selection-end-line="2" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/UserDetails.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="25" column="5" lean-forward="true" selection-start-line="25" selection-start-column="5" selection-end-line="25" selection-end-column="5" />
+        <state relative-caret-position="543">
+          <caret line="64" column="46" lean-forward="true" selection-start-line="64" selection-start-column="46" selection-end-line="64" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#299#300#0" expanded="true" />
-            <element signature="e#326#327#0" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#415#416#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/filter/JWTAuthenticationFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="12" column="36" lean-forward="true" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+        <state relative-caret-position="425">
+          <caret line="37" column="69" lean-forward="true" selection-start-line="37" selection-start-column="69" selection-end-line="37" selection-end-column="69" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -758,12 +766,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/TokenJWTUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/utils/UserDetails.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
+        <state relative-caret-position="306">
+          <caret line="18" column="36" selection-start-line="18" selection-start-column="36" selection-end-line="18" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#457#458#0" expanded="true" />
+            <element signature="e#299#300#0" expanded="true" />
+            <element signature="e#326#327#0" expanded="true" />
+            <element signature="e#387#388#0" expanded="true" />
+            <element signature="e#415#416#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/br/com/gilbertopapa/wsjwt/webservice/jwt/JWTSecurityContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#240#241#0" expanded="true" />
+            <element signature="e#267#268#0" expanded="true" />
+            <element signature="e#329#330#0" expanded="true" />
+            <element signature="e#357#358#0" expanded="true" />
+            <element signature="e#404#405#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#493#494#0" expanded="true" />
+            <element signature="e#520#521#0" expanded="true" />
           </folding>
         </state>
       </provider>
