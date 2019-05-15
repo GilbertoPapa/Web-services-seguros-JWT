@@ -15,6 +15,11 @@ public class UserDetails implements Principal {
         this.roles = roles;
     }
 
+
+    public List<String> getRoles() {
+        return roles;
+    }
+
     @Override
     public String getName() {
         return null;
