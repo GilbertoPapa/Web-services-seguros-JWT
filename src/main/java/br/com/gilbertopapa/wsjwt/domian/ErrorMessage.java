@@ -13,27 +13,17 @@ public class ErrorMessage {
         return statusCode;
     }
 
-    public void setStatusCode(Integer statusCode) {
-        this.statusCode = statusCode;
-    }
-
     public String getStatusMessage() {
         return statusMessage;
-    }
-
-    public void setStatusMessage(String statusMessage) {
-        this.statusMessage = statusMessage;
     }
 
     public String getErro() {
         return erro;
     }
 
-    public void setErro(String erro) {
-        this.erro = erro;
+    public static Builder builder() {
+        return new Builder();
     }
-
-
 
     public static class Builder {
 
