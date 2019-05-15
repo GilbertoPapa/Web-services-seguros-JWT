@@ -15,6 +15,11 @@ public class UserDetails implements Principal {
         this.roles = roles;
     }
 
+
+    public List<String> getRoles() {
+        return roles;
+    }
+
     @Override
     public String getName() {
         return null;
@@ -24,4 +29,6 @@ public class UserDetails implements Principal {
     public boolean implies(Subject subject) {
         return false;
     }
+
+
 }
